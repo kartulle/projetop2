@@ -31,7 +31,7 @@ O sistema de aconselhamento de matrícula tem por objetivo, dado o histórico do
 
 > ## Instruções
 
-- O projeto foi feito utilizando a IDE inteliJ, com a versão 20 do JDK. Primeiro compile o back (ajuste a porta no arquivo server), em seguida o front utilizando o comando npm run dev(usar o comando "npm run dev" para baixar as dependências antes).
+- O projeto foi feito utilizando a IDE inteliJ, com a versão 20 do JDK. Primeiro compile o back (ajuste a porta no arquivo server), em seguida compile o front utilizando o comando npm run dev(usar o comando "npm install" para baixar as dependências antes de compilar).
 
 > ## Resumo
 - Refatoramos o código para conseguirmos aplicar os seguintes padrões: Command pattern e States. Também consegui aplicar o polimorfismo(no método "executeoperation", localizado na pasta "command"), que antes não havia, mas foi necessário para usar o padrão Command. Exceptions também foi aplicado em várias partes do código, exemplo: na criação de lista de usuário(usando try e catch). Para melhor eficácia, usamos o padrão DAO, para deixar as classes mais legíveis e também porque pretendíamos aplicar um banco de dados, o que não foi possível devido ao tempo.
