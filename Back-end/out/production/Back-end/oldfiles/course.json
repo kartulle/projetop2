@@ -1,0 +1,1545 @@
+{
+	"name": "Ciência da Computação",
+	"optional workload": 936,
+	"required workload": 2391,
+	"max semester": 12,
+	"subjects": [
+		{
+			"semester": 1,
+			"name": "PROGRAMAÇÃO 1",
+			"code": "COMP359",	
+			"optional": false,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "1"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "1"
+                }
+            ]
+		},
+		{
+			"semester": 2,
+			"name": "LÓGICA PARA COMPUTAÇÃO",
+			"code": "COMP360",
+			"optional": false,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "5"
+                }
+            ]
+		},
+		{
+			"semester": 2,
+			"name": "COMPUTAÇÃO, SOCIEDADE E ÉTICA",
+			"code": "COMP361",	
+			"optional": false,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "terça",
+                    "hour": "1"
+                },
+                {
+                    "day": "quinta",
+                    "hour": "1"
+                }
+            ]
+
+		},
+		{
+			"semester": 1,
+			"name": "MATEMÁTICA DISCRETA",
+			"code": "COMP362",
+			"optional": false,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "terça",
+                    "hour": "2"
+                },
+                {
+                    "day": "quinta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 1,
+			"name": "CÁLCULO DIFERENCIAL E INTEGRAL",
+			"code": "COMP363",
+			"optional": false,
+			"workload": 144,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "sexta",
+                    "hour": "1"
+                },
+                {
+                    "day": "sexta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 2,
+			"name": "ESTRUTURA DE DADOS",
+			"code": "COMP364",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code": "COMP359"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "4"
+                },
+                {
+                    "day": "terça",
+                    "hour": "4"
+                }
+            ]
+		},
+		{
+			"semester": 2,
+			"name": "BANCO DE DADOS",
+			"code": "COMP365",
+			"optional": false,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "5"
+                },
+                {
+                    "day": "terça",
+                    "hour": "5"
+                }
+            ]
+		},
+		{
+			"semester": 2,
+			"name": "ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES",
+			"code": "COMP366",
+			"optional": false,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                },
+                {
+                    "day": "quinta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 2,
+			"name": "GEOMETRIA ANALÍTICA",
+			"code": "COMP367",
+			"optional": false,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "quarta",
+                    "hour": "3"
+                },
+                {
+                    "day": "quinta",
+                    "hour": "3"
+                }
+            ]
+		},
+		{
+			"semester": 3,
+			"name": "REDES DE COMPUTADORES",
+			"code": "COMP368",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP359"
+				}
+			],
+			"time": [
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                },
+                {
+                    "day": "quinta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 3,
+			"name": "TEORIA DOS GRAFOS",
+			"code": "COMP369",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP364"
+				},
+				{
+					"code":"COMP362"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "1"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "1"
+                }
+            ]
+		},	
+		{
+			"semester": 3,
+			"name": "PROBABILIDADE E ESTATÍSTICA",
+			"code": "COMP370",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP363"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quinta",
+                    "hour": "3"
+                }
+            ]
+		},
+		{
+			"semester": 3,
+			"name": "ÁLGEBRA LINEAR",
+			"code": "COMP371",
+			"optional": false,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "sexta",
+                    "hour": "1"
+                },
+                {
+                    "day": "sexta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 4,
+			"name": "PROGRAMAÇÃO 2",
+			"code": "COMP372",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP364"
+				},
+				{
+					"code":"COMP365"
+				},
+				{
+					"code":"COMP368"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "1"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "1"
+                }
+            ]
+		},
+		{
+			"semester": 4,
+			"name": "PROGRAMAÇÃO 3",
+			"code": "COMP373",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP364"
+				},
+				{
+					"code":"COMP365"
+				},
+				{
+					"code":"COMP365"
+				}
+			],
+			"time": [
+                {
+                    "day": "terça",
+                    "hour": "4"
+                },
+                {
+                    "day": "quinta",
+                    "hour": "4"
+                }
+            ]
+		},
+		{
+			"semester": 4,
+			"name": "PROJETO E ANÁLISE DE ALGORITMOS",
+			"code": "COMP374",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP364"
+				},
+				{
+					"code":"COMP369"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 4,
+			"name": "TEORIA DA COMPUTAÇÃO",
+			"code": "COMP376",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP364"
+				},
+				{
+					"code":"COMP369"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 4,
+			"name": "ACE 1: PROJETO I",
+			"code": "COMP377",
+			"optional": false,
+			"workload": 75,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 5,
+			"name": "SISTEMAS OPERACIONAIS",
+			"code": "COMP378",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP364"
+				},
+				{
+					"code":"COMP369"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 5,
+			"name": "COMPILADORES",
+			"code": "COMP379",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP364"
+				},
+				{
+					"code":"COMP369"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 5,
+			"name": "INTELIGÊNCIA ARTIFICIAL",
+			"code": "COMP380",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP364"
+				},
+				{
+					"code":"COMP369"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 5,
+			"name": "COMPUTAÇÃO GRÁFICA",
+			"code": "COMP381",
+			"optional": false,
+			"workload": 72,
+			"requirements": [
+				{
+					"code":"COMP364"
+				},
+				{
+					"code":"COMP369"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 5,
+			"name": "ACE 2: CONTINUIDADE DO PROJETO I",
+			"code": "COMP383",
+			"optional": false,
+			"workload": 75,
+			"requirements": [
+				{
+					"code":"COMP377"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 6,
+			"name": "PROJETO E DESENVOLVIMENTO DE SISTEMAS",
+			"code": "COMP382",
+			"optional": false,
+			"workload": 288,
+			"requirements": [
+				{
+					"code":"COMP364"
+				},
+				{
+					"code":"COMP369"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 6,
+			"name": "ACE 3: PROJETO 2",
+			"code": "COMP384",
+			"optional": false,
+			"workload": 75,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 7,
+			"name": "METODOLOGIA DE PESQUISA E TRABALHO INDIVIDUAL",
+			"code": "COMP386",
+			"optional": false,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 7,
+			"name": "NOÇÕES DE DIREITO",
+			"code": "COMP387",
+			"optional": false,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 7,
+			"name": "ACE 4: CONTINUAÇÃO DO PROJETO 2",
+			"code": "COMP388",
+			"optional": false,
+			"workload": 75,
+			"requirements": [
+				{
+					"code":"COMP384"
+				}
+			],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 8,
+			"name": "ACE 5: EVENTO",
+			"code": "COMP385",
+			"optional": false,
+			"workload": 75,
+			"requirements": [],
+			"time": [
+                {
+                    "day": "segunda",
+                    "hour": "2"
+                },
+                {
+                    "day": "quarta",
+                    "hour": "2"
+                }
+            ]
+		},
+		{
+			"semester": 0,
+			"name": "CONCEITOS DE LINGUAGEM DE PROGRAMAÇÃO",
+			"code": "COMP389", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "APRENDIZAGEM DE MÁQUINA",
+			"code": "COMP390", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "SISTEMAS DIGITAIS",
+			"code": "COMP391", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "SISTEMAS DISTRIBUÍDOS",
+			"code": "COMP392", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "REDES NEURAIS E APRENDIZADO PROFUNDO",
+			"code": "COMP393", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "FPGA",
+			"code": "COMP394", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "INTERAÇÃO HOMEM-MÁQUINA",
+			"code": "COMP395", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "PROCESSAMENTO DIGITAL DE IMAGENS",
+			"code": "COMP396", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "COMPUTAÇÃO EVOLUCIONÁRIA",
+			"code": "COMP397", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "SISTEMAS EMBARCADOS",
+			"code": "COMP398", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "GERÊNCIA DE PROJETO",
+			"code": "COMP399", 
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "VISÃO COMPUTACIONAL",
+			"code": "COMP400",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "CIÊNCIA DE DADOS",
+			"code": "COMP401",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "MICROCONTROLADORES E APLICAÇÕES",
+			"code": "COMP402",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "SEGURANÇA DE SISTEMAS COMPUTACIONAIS",
+			"code": "COMP403",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "CÁLCULO 3",
+			"code": "COMP404",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM CIÊNCIA DA COMPUTAÇÃO 1",
+			"code": "COMP405",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM CIÊNCIA DA COMPUTAÇÃO 2",
+			"code": "COMP406",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM CIÊNCIA DA COMPUTAÇÃO 3",
+			"code": "COMP407",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM MATEMÁTICA PARA COMPUTAÇÃO 1",
+			"code": "COMP409",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM MATEMÁTICA PARA COMPUTAÇÃO 2",
+			"code": "COMP410",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM MATEMÁTICA PARA COMPUTAÇÃO 3",
+			"code": "COMP411",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM FÍSICA PARA COMPUTAÇÃO 1",
+			"code": "COMP412",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM FÍSICA PARA COMPUTAÇÃO 2",
+			"code": "COMP413",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM FÍSICA PARA COMPUTAÇÃO 3",
+			"code": "COMP414",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "NAVEGAÇÃO EM ROBÓTICA MÓVEL",
+			"code": "COMP417",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "PESQUISA OPERACIONAL",
+			"code": "COMP418",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "CÁLCULO 2",
+			"code": "COMP419",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "EMPREENDEDORISMO",
+			"code": "COMP420",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "INTRODUÇÃO À COMPUTAÇÃO",
+			"code": "COMP421",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TESTE DE SOFTWARE",
+			"code": "COMP422",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "BANCO DE DADOS 2",
+			"code": "COMP423",
+			"optional": true,
+			"workload": 40,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "FUNDAMENTOS DE IA APLICADOS AO DIAGNÓSTICO MÉDICO",
+			"code": "COMP424",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "PROCESSAMENTO DE LINGUAGEM NATURAL;",
+			"code": "COMP425",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "LABORATÓRIO DE PROGRAMAÇÃO",
+			"code": "COMP426",
+			"optional": true,
+			"workload": 40,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "REDES NEURAIS E APRENDIZADO PROFUNDO;",
+			"code": "COMP427",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "INTELIGÊNCIA ARTIFICIAL APLICADA AO DIAGNÓSTICO DE DOENÇAS",
+			"code": "COMP428",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "CÁLCULO 4",
+			"code": "COMP429",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM SOFTWARE BÁSICO",
+			"code": "COMP430",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "LIBRAS",
+			"code": "COMP431",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "GAMIFICAÇÃO",
+			"code": "COMP433",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "EXPLORAÇÃO E MINERAÇÃO DE DADOS",
+			"code": "COMP434",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS ESPECIAIS EM GESTÃO DE PROJETOS",
+			"code": "COMP435",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS ESP. BANCO DE DADOS: GER. DE DADOS SEMIESTRUTURADOS",
+			"code": "COMP436",
+			"optional": true,
+			"workload": 40,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS EM ENGENHARIA DE SOFTWARE - PROJETANDO LINHAS DE PRODUTO DE SOFTWARE",
+			"code": "COMP437",
+			"optional": true,
+			"workload": 40,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "CÁLCULO 1;",
+			"code": "COMP439",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "INTRODUÇÃO À ADMINISTRAÇÃO",
+			"code": "COMP440",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "LABORATÓRIO DE INTELIGÊNCIA ARTIFICIAL EM ROBÓTICA",
+			"code": "COMP441",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "TÓPICOS ESPECIAIS EM GERÊNCIA E PROCESSAMENTO DE DADOS EM LARGA ESCALA",
+			"code": "COMP442",
+			"optional": true,
+			"workload": 72,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "REDES DE COMPUTADORES 2;",
+			"code": "COMP443",
+			"optional": true,
+			"workload": 40,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		},
+		{
+			"semester": 0,
+			"name": "REUSO DE SOFTWARE E METODOLOGIAS ÁGEIS",
+			"code": "COMP444",
+			"optional": true,
+			"workload": 40,
+			"requirements": [],
+			"time": [
+				{
+					"day": "segunda",
+					"hour": "1"
+				},
+				{
+					"day": "quarta",
+					"hour": "1"
+				}
+			]
+		}
+	]
+}

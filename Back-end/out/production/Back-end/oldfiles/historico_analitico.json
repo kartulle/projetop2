@@ -1,0 +1,14 @@
+{
+	"currentSemester": 3,
+	"course": "Ciência da Computação",
+	"subjects": [
+		{
+			"name": "Programação 1",
+			"code": "COMP359"
+		},
+		{
+			"name": "Programação 2",
+			"code": "COMP372"
+		}
+	]
+}
